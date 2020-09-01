@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+body{
+    background: linear-gradient(100deg, rgb(18, 67, 122), rgb(30, 11, 65));
+    color: #fff;
+    font-family: 'Carter One', cursive;
+}
+
+#header{
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-areas: 'div'
+    'div';
+    align-items: center;
+    margin: auto 30px;
+    max-width: 100%;
+}
+
+
+#header h1 {
+    display: flex;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 3.7rem;
+    margin-bottom: 10px;
+}
+
+#header div i {
+    display: flex;
+    flex-direction: row;
+    font-size: 4rem;
+    margin-top: 70px;
+    margin-left: 15px;
+    width: 100px;
+    height: 80px;
+}
+
+.title {
+    display: flex;
+}
+
+#header .search {
+    width: 200px;
+    margin: 20px 10px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
+
+#header label {
+    font-size: 1.5rem;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.weather-info h3 {
+    margin: 10px 0;
+    font-size: 3rem;
+
+}
+
+.weather-info ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.weather-info ul li {
+    padding: 5px;
+    font-size: 1.4rem;
+    border-bottom: 1px dotted #fff;
+}
+
+.show-err {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    background: rgb(105, 13, 7);
+    color: #fff;
+    padding: 10px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
